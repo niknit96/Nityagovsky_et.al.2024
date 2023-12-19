@@ -22,12 +22,9 @@ bash ./Nityagovsky_et.al.2024-main/download.sh
 mamba env create --file ./Nityagovsky_et.al.2024-main/Nityagovsky_et.al.2024.yml || conda env create --file ./Nityagovsky_et.al.2024-main/Nityagovsky_et.al.2024.yml
 mamba activate Nityagovsky_et.al.2024 || conda activate Nityagovsky_et.al.2024
 ```
-6. Download and install qiime2R, tidyterra, sf and maptiles packages (accessed on 18 December 2023):
+6. Download and install qiime2R package (accessed on 18 December 2023):
 ```
 Rscript -e 'devtools::install_github("jbisanz/qiime2R")'
-Rscript -e 'devtools::install_github("dieghernan/tidyterra")'
-Rscript -e 'devtools::install_github("r-spatial/sf")'
-Rscript -e 'devtools::install_github("riatelab/maptiles")'
 ```
 7. Run bash script for analysis data:
 ```
